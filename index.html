@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SOEN - Prueba Básica</title>
+    <link rel="stylesheet" href="./src/styles.css">
+    <style>
+        .position-padre {
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .center {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="qa-red position-padre">
+        <div class="c-atom js-cont-atom qa-red center">
+            <div class="c-atom__nucleus"></div>
+            <div class="c-atom__orbit">
+                <div class="c-atom__electron"></div>
+            </div>
+            <div class="c-atom__orbit">
+                <div class="c-atom__electron"></div>
+            </div>
+            <div class="c-atom__orbit">
+                <div class="c-atom__electron"></div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
